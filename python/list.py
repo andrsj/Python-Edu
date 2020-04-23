@@ -12,6 +12,7 @@
 	massive.reverse() 				#| реверс масиву
 	massive2 = massive1.copy() 		#| копіювання масиву
 	massive2 = list(massive1)		#| копіювання масиву
+	massive1.extend(massive2)		#| конкатенація списків
 	del thislist[0] 				#| видаляє вказаний елемент по індексу
 	del thislist					#| видаляє список
 
